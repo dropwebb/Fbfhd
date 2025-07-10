@@ -3,7 +3,7 @@ services:
     name: web-terminal
     env: python
     buildCommand: "pip install -r requirements.txt"
-    startCommand: "python src/main.py"
+    startCommand: "gunicorn --worker-class eventlet -w 1 src.main:app"
     ports:
       - 5000
     envVars:

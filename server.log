@@ -27,3 +27,12 @@ Werkzeug appears to be used in a production deployment. Consider switching to a 
 127.0.0.1 - - [10/Jul/2025 07:21:42] "GET /socket.io/?EIO=4&transport=polling&t=PVq4U9q&sid=rcCuLOiF5kYmSp9aAAAC HTTP/1.1" 200 -
 127.0.0.1 - - [10/Jul/2025 07:23:00] "GET /socket.io/?EIO=4&transport=websocket&sid=rcCuLOiF5kYmSp9aAAAC HTTP/1.1" 200 -
 127.0.0.1 - - [10/Jul/2025 07:23:00] "GET /socket.io/?EIO=4&transport=websocket&sid=HsbAm6gNLysbcVyVAAAA HTTP/1.1" 200 -
+ * Detected change in '/home/ubuntu/web-terminal-backend/src/main.py', reloading
+Client connected
+Client connected
+Client disconnected
+Client disconnected
+ * Restarting with stat
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+ * Debugger is active!
+ * Debugger PIN: 397-812-336
