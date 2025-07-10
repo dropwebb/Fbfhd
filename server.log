@@ -1,0 +1,29 @@
+nohup: ignoring input
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+ * Serving Flask app 'main'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://169.254.0.21:5001
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+ * Debugger is active!
+ * Debugger PIN: 397-812-336
+127.0.0.1 - - [10/Jul/2025 07:21:27] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jul/2025 07:21:27] "GET /style.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jul/2025 07:21:27] "GET /terminal.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jul/2025 07:21:27] "[36mGET /style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Jul/2025 07:21:39] "POST /api/login HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jul/2025 07:21:39] "GET /socket.io/?EIO=4&transport=polling&t=PVq4TRb HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jul/2025 07:21:39] "POST /socket.io/?EIO=4&transport=polling&t=PVq4TRx&sid=HsbAm6gNLysbcVyVAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jul/2025 07:21:39] "GET /socket.io/?EIO=4&transport=polling&t=PVq4TR_&sid=HsbAm6gNLysbcVyVAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jul/2025 07:21:39] "GET /socket.io/?EIO=4&transport=polling&t=PVq4TSW&sid=HsbAm6gNLysbcVyVAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jul/2025 07:21:42] "POST /api/login HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jul/2025 07:21:42] "GET /socket.io/?EIO=4&transport=polling&t=PVq4U8z HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jul/2025 07:21:42] "POST /socket.io/?EIO=4&transport=polling&t=PVq4U9G&sid=rcCuLOiF5kYmSp9aAAAC HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jul/2025 07:21:42] "GET /socket.io/?EIO=4&transport=polling&t=PVq4U9I&sid=rcCuLOiF5kYmSp9aAAAC HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jul/2025 07:21:42] "GET /socket.io/?EIO=4&transport=polling&t=PVq4U9q&sid=rcCuLOiF5kYmSp9aAAAC HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jul/2025 07:23:00] "GET /socket.io/?EIO=4&transport=websocket&sid=rcCuLOiF5kYmSp9aAAAC HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jul/2025 07:23:00] "GET /socket.io/?EIO=4&transport=websocket&sid=HsbAm6gNLysbcVyVAAAA HTTP/1.1" 200 -
