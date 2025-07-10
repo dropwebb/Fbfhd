@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ubuntu Web Terminal</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xterm@5.3.0/css/xterm.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container" id="login-container">
+        <div class="login-box">
+            <h2>Ubuntu Web Terminal</h2>
+            <p>Введите пароль для доступа к терминалу.</p>
+            <input type="password" id="password-input" placeholder="Пароль">
+            <button id="login-button">Войти</button>
+            <p id="login-error" class="error-message"></p>
+        </div>
+    </div>
+
+    <div class="container" id="terminal-app" style="display: none;">
+        <header class="header">
+            <div class="window-controls">
+                <div class="control close"></div>
+                <div class="control minimize"></div>
+                <div class="control maximize"></div>
+            </div>
+            <h1 class="title">Ubuntu Web Terminal</h1>
+            <div class="status">
+                <span id="connection-status" class="status-disconnected">Disconnected</span>
+            </div>
+        </header>
+        
+        <div class="terminal-container">
+            <div id="terminal"></div>
+        </div>
+        
+        <footer class="footer">
+            <div class="info">
+                <span>Используйте Ctrl+C для прерывания команд</span>
+                <span>|</span>
+                <span>Поддерживаются все стандартные команды Ubuntu</span>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/xterm@5.3.0/lib/xterm.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/xterm-addon-fit@0.8.0/lib/xterm-addon-fit.js"></script>
+    <script src="https://unpkg.com/socket.io-client@4.7.5/dist/socket.io.js" 
+            onerror="this.onerror=null; this.src='https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.5/socket.io.js'"></script>
+    <script src="terminal.js"></script>
+</body>
+</html>
+
